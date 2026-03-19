@@ -1,0 +1,59 @@
+Privacy Policy — My Cycle
+Effective date: 03/18/2026
+Developer: Patrick Lower / Toasty Penguin
+Contact: devvortex@gmail.com
+
+Overview
+My Cycle is a menstrual cycle tracking app. This policy explains what data the app stores, how it is protected, and your rights regarding that data.
+
+Summary: All data you enter into My Cycle is stored locally on your device, encrypted, and never transmitted to any server. We do not collect, see, or have access to any of your personal information.
+
+What Data the App Stores
+My Cycle stores the following data on your device only:
+
+Cycle dates — the start and end dates of your menstrual cycles
+Daily notes — free-text notes you write for individual days
+Symptom and mood logs — emoji stickers you select to track flow, symptoms, mood, cravings, and other daily experiences
+App settings — your preferences for theme, cycle length, and notifications
+A security credential — a hashed PIN and/or a reference to your device biometric, used to lock the app
+No names, email addresses, device identifiers, location data, or any other personal information is collected or stored.
+
+How Your Data Is Protected
+All data is stored in an encrypted SQLite database using 256-bit SQLCipher encryption. The encryption key is generated on your device and stored in the Android Keystore (Android) or iOS Keychain (iOS) — secure hardware-backed storage that only your app can access.
+
+The app requires authentication (PIN or biometrics) each time it is opened. Your PIN is never stored in plain text; it is stored as a one-way cryptographic hash.
+
+Data Transmission
+My Cycle does not connect to the internet. The app has no network permissions and cannot transmit any data. No data is sent to the developer, to third-party analytics services, to advertising networks, or to any other external party.
+
+Data Sharing
+We do not share your data with anyone. The only way data leaves your device is if you choose to export it using the built-in CSV export feature, which uses your device's standard share sheet. You control where that file goes.
+
+Third-Party Services
+My Cycle does not integrate any third-party SDKs that collect user data. It does not use advertising networks, analytics platforms, crash reporting services, or social media integrations.
+
+Notifications
+If you enable period reminders, the app schedules local notifications on your device using your predicted cycle dates. These notifications are generated entirely on your device and are not routed through any external server.
+
+Children
+My Cycle is not directed at children under 13. We do not knowingly collect data from children.
+
+Data Deletion
+Because all data is stored locally on your device, you can delete it at any time by:
+
+Clearing the app's data in your device settings, or
+Uninstalling the app
+Either action permanently removes all cycle data from your device. There is no server copy to request deletion of.
+
+Your Rights
+Since we have no access to your data, we cannot fulfill requests to access, correct, or delete data on your behalf — your device is the sole location of your data. All control is in your hands:
+
+Access: Open the app to view your data
+Correct: Edit or delete entries directly in the app
+Delete: Clear app data or uninstall
+Changes to This Policy
+If we update this policy, we will update the effective date above. Continued use of the app after a policy change constitutes acceptance of the updated policy. Material changes will be noted in the app's release notes.
+
+Contact
+If you have questions about this privacy policy, contact us at:
+devvortex@gmail.com
